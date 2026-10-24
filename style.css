@@ -121,6 +121,24 @@ article {
   overflow-wrap: anywhere;
 }
 
+.stage {
+  height: 220px;
+  margin-top: 12px;
+  border: 1px solid #dce3dc;
+  border-radius: 5px;
+  background: #f8faf8;
+  overflow: hidden;
+}
+
+.square {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  background: #315c47;
+}
+
 @media (max-width: 480px) {
   body, main {
     padding: 16px;

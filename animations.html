@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery animations</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="animations.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="Assignment parts">
+      <a href="index.html">Basics</a>
+      <a href="effects.html">Effects</a>
+      <a href="dom.html">DOM</a>
+      <a href="animations.html" aria-current="page">Animations</a>
+      <a href="accordion.html">Mini project</a>
+    </nav>
+  </header>
+  <main>
+    <p class="part">Part 4</p>
+    <h1>jQuery animations</h1>
+    <section>
+      <h2>Task 8 / Basic animation</h2>
+      <p>The square grows and moves to the right</p>
+      <button id="animate-basic">Animate square</button>
+      <div class="stage">
+        <div id="basic-box" class="square"></div>
+      </div>
+    </section>
+    <section>
+      <h2>Task 9 / Sequential animations</h2>
+      <p>Move right then down then shrink and return to the start</p>
+      <button id="animate-sequence">Run sequence</button>
+      <div class="stage">
+        <div id="sequence-box" class="square"></div>
+      </div>
+    </section>
+    <section>
+      <h2>Task 10 / Combined animation</h2>
+      <p>Size position and opacity change together</p>
+      <button id="animate-combined">Combine changes</button>
+      <div class="stage">
+        <div id="combined-box" class="square"></div>
+      </div>
+    </section>
+  </main>
+  <footer>Arnur Kozhabergen / SE-2529 / Assignment 6</footer>
+</body>
+</html>
