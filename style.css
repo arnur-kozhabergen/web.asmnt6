@@ -139,6 +139,20 @@ article {
   background: #315c47;
 }
 
+.accordion-item {
+  margin: 16px 0;
+}
+
+.accordion-title {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.accordion-content {
+  display: none;
+}
+
 @media (max-width: 480px) {
   body, main {
     padding: 16px;
