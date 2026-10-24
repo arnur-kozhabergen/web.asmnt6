@@ -118,6 +118,7 @@ article {
   border: 1px solid #dce3dc;
   border-radius: 5px;
   background: #f3f7f3;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 480px) {

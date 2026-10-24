@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery DOM practice</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="dom.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav aria-label="Assignment parts">
+      <a href="index.html">Basics</a>
+      <a href="effects.html">Effects</a>
+      <a href="dom.html" aria-current="page">DOM</a>
+      <a href="animations.html">Animations</a>
+      <a href="accordion.html">Mini project</a>
+    </nav>
+  </header>
+  <main>
+    <p class="part">Part 3</p>
+    <h1>DOM practice</h1>
+    <section>
+      <h2>Task 5 / Add and remove elements</h2>
+      <button id="add-item">Add Item</button>
+      <button id="prepend-item">Add at start</button>
+      <button id="remove-item">Remove Item</button>
+      <ul id="items">
+        <li>Read the lecture</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Task 6 / Modifying attributes</h2>
+      <button id="change-image">Change image</button>
+      <img id="meal-photo" class="demo-photo" src="images/toast.jpg" alt="Mushroom toast">
+      <p><a id="study-link" href="https://jquery.com/">jQuery website</a></p>
+      <button id="change-link">Change link</button>
+    </section>
+    <section>
+      <h2>Task 7 / Form interaction</h2>
+      <form id="preview-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email">
+      </form>
+      <div class="panel" aria-live="polite">
+        <p>Name: <span id="name-preview"></span></p>
+        <p>Email: <span id="email-preview"></span></p>
+      </div>
+    </section>
+  </main>
+  <footer>Arnur Kozhabergen / SE-2529 / Assignment 6</footer>
+</body>
+</html>
